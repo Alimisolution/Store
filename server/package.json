@@ -5,7 +5,9 @@
   "type": "module",
   "main": "server",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "import": "node seeder.js",
+    "destroy -d": "node seeder.js -d"
   },
   "author": "Alimisolution",
   "license": "ISC",
